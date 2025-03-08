@@ -1,0 +1,129 @@
+/* Geral */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('Assets/background.png');
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.header {
+  background-image: url('Assets/Vetor.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Espaço entre o texto e a imagem */
+  font-size: 1.8rem;
+}
+
+.header-icon {
+  width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 40px;
+  object-fit: cover; /* Garante que a imagem se ajuste ao tamanho sem deformar */
+}
+
+/* Conteúdo Principal */
+.main-content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Seção de entrada de hábitos */
+.habit-input {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  border-left: 5px solid #ff6700;
+}
+
+.habit-input h2 {
+  color: #ff6700;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.habit-input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.habit-input input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.habit-input button {
+  background-color: #ff6700;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-input button:hover {
+  background-color: #e55e00;
+}
+
+/* Lista de hábitos */
+.habit-list {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #ff6700;
+}
+
+.habit-list h2 {
+  color: #ff6700;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+#habit-container {
+  list-style: none;
+  padding: 0;
+}
+
+#habit-container li {
+  background-color: #f9f5f0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+#habit-container li:hover {
+  transform: translateX(10px);
+  background-color: #ffe6cc;
+}
+
+/* Rodapé */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-image: url('Assets/Vetor.png');
+  color: #111111;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0;
+}

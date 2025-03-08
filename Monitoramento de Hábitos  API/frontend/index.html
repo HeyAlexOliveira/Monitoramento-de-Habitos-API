@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Hábitos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1><i class="fas fa-chart-line"></i> Monitoramento de Hábitos</h1>
+    </header>
+    <main class="main-content">
+        <section class="habit-input">
+            <h2>Adicione um Hábito</h2>
+            <form id="habit-form">
+                <label for="habit-name">Hábito:</label>
+                <input type="text" id="habit-name" placeholder="Ex: Leitura, Exercícios" required>
+                
+                <label for="habit-goal">Meta:</label>
+                <input type="text" id="habit-goal" placeholder="Ex: 3x por semana" required>
+                
+                <button type="submit">Adicionar</button>
+            </form>
+            
+            <ul id="habit-container"></ul>            
+        </section>
+        <section class="habit-list">
+            <h2>Seus Hábitos</h2>
+            <ul id="habit-container">
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Monitoramento de Hábitos. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

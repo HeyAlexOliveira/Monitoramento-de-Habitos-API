@@ -1,0 +1,10 @@
+CREATE DATABASE monitoramento_habitos;
+
+USE monitoramento_habitos;
+
+CREATE TABLE habitos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    habito VARCHAR(255) NOT NULL,
+    meta VARCHAR(255) NOT NULL,
+    frequencia INT DEFAULT 0
+);
